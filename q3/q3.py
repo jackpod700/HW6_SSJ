@@ -1,7 +1,7 @@
 import csv
 import matplotlib.pyplot as plt
 def q3():
-    f=open("jeju_population.csv","r")
+    f=open("q3\jeju_population.csv","r")
     data=csv.reader(f)
     next(data)
     row=next(data)
