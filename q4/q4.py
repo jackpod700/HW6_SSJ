@@ -2,7 +2,7 @@ import csv
 import matplotlib.pyplot as plt
 
 def q4():
-    f=open("q4\Subway.csv",'r')
+    f=open("Subway.csv",'r')
     data=csv.reader(f)
     next(data)
     next(data)
